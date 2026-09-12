@@ -1,15 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AGI C1 // 106 // 6.9.2026 </title>
-    <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        iframe { width: 100%; height: 100%; border: none; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikace</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f6f9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .btn-app {
+      display: inline-block;
+      padding: 20px 40px;
+      font-size: 22px;
+      font-weight: 600;
+      color: #ffffff;
+      background-color: #1a73e8;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(26, 115, 232, 0.35);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .btn-app:hover {
+      background-color: #1557b0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(26, 115, 232, 0.45);
+    }
+
+    .btn-app:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 8px rgba(26, 115, 232, 0.3);
+    }
+  </style>
 </head>
 <body>
-    <a href="https://script.google.com/macros/s/AKfycbz5KU7oI6a4zRosu_fOB2VIxzJc6_vRXPaDBBz2scJSA-55KuXBcS8eQgEb4lp-r-8Qaw/exec" target="_blank" class="btn">Otevřít aplikaci</a>
+
+  <!-- Sem vlož svou adresu webové aplikace z Google Apps Scriptu -->
+  <a href="https://script.google.com/macros/s/AKfycbz5KU7oI6a4zRosu_fOB2VIxzJc6_vRXPaDBBz2scJSA-55KuXBcS8eQgEb4lp-r-8Qaw/exec" target="_blank" rel="noopener noreferrer" class="btn-app">
+    🚀 Otevřít aplikaci
+  </a>
+
 </body>
 </html>
